@@ -3,19 +3,19 @@ CREATE DATABASE employee_db;
 
 USE employee_db;
 
-CREATE TABLE department(
+CREATE TABLE department (
   id INTEGER NOT NULL,
   name VARCHAR(30)
 );
 
-CREATE TABLE role(
+CREATE TABLE role (
   id INTEGER NOT NULL,
   title VARCHAR(30),
   salary DECIMAL(10,2),
   department_id INTEGER NOT NULL
 );
 
-CREATE TABLE employee(
+CREATE TABLE employee (
   id INTEGER NOT NULL,
   first_name VARCHAR(30),
   last_name VARCHAR(30),

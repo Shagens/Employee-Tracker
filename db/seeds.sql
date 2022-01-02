@@ -18,7 +18,7 @@ VALUES
 
   INSERT INTO role (id, first_name, last_name, role_id, manager_id)
 VALUES 
-  (1, "Bob", "Franklin", "Store Manager"),
+  (1, "Bob", "Franklin", "Store Manager", null),
   (2,"Ashley", "Lopez", "Department Manager", 1),
   (3,"Kayla", "Benjamin","Cashier", 2),
   (4,"Shikelia", "Hagens","Baker" , 2),
